@@ -28,7 +28,7 @@ describe('valid Issuer', () => {
       .toThrowError("Your Cryptr URL issuer must start with https.Current value: http://localhost:3000. You can copy your domain from the Cryptr Developer ");
   });
   
-  it('should throw if no issuer is provided', () => {
+  it('should warn if https is disabled', () => {
     validIssuer('http://localhost:3000', {disableHttpsCheck: true});
     expect(global.console.warn).toHaveBeenCalledWith( "Warning: HTTPS check is disabled." +
       "This allows for insecure configurations and is NOT recommended for production use.")
