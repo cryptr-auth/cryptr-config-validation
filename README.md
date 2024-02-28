@@ -1,4 +1,7 @@
 | Statements                | Branches                | Functions                |
 | ------------------------- | ----------------------- | ------------------------ |
-| ![Statements](https://img.shields.io/badge/Coverage-100%25-brightgreen.svg) | ![Branches](https://img.shields.io/badge/Coverage-91.3%25-brightgreen.svg) | ![Functions](https://img.shields.io/badge/Coverage-100%25-brightgreen.svg) |
-# hello-configuration
+| ![Statements](https://img.shields.io/badge/statements-100%25-brightgreen.svg?style=flat) | ![Branches](https://img.shields.io/badge/branches-91.3%25-brightgreen.svg?style=flat) | ![Functions](https://img.shields.io/badge/functions-100%25-brightgreen.svg?style=flat) |
+
+# cryptr-config-validation
+
+Cryptr helper to check a configuration
